@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto foi desenvolvido por **Tomás Vilhena Pereira e João Afonso Godinho Ferreira** como parte da disciplina de **Projeto Informático**. A aplicação consiste em uma **Intelligent Cloud Based Control Station for Drones**, que permite o controlo simultâneo de múltiplos drones, físicos ou simulados, a partir de qualquer localização. O sistema possibilita controlar o movimento vertical e horizontal dos drones, levantar voo, aterrar, criar rotas automáticas e captar imagens de vídeo em tempo real. Além disso, os dados dos drones são processados por um servidor, proporcionando uma interface simples e intuitiva para monitorar e controlar.
+Este projeto foi desenvolvido por **Tomás Vilhena Pereira e João Afonso Godinho Ferreira** como parte da disciplina de **Projeto Informático**. A aplicação consiste numa **Intelligent Cloud Based Control Station for Drones**, que permite o controlo simultâneo de múltiplos drones, físicos ou simulados, a partir de qualquer localização. O sistema possibilita controlar o movimento vertical e horizontal dos drones, levantar voo, aterrar, criar rotas automáticas e captar imagens de vídeo em tempo real. Além disso, os dados dos drones são processados por um servidor, proporcionando uma interface simples e intuitiva para monitorar e controlar.
 
 ---
 
@@ -11,7 +11,7 @@ Este projeto foi desenvolvido por **Tomás Vilhena Pereira e João Afonso Godinh
 - Controlo manual de drones: levantar voo, aterrar, alterar altitude e direção.
 - Controlo automático: definição de waypoints e execução de rotas automáticas.
 - Visualização em tempo real das imagens captadas pelas câmaras dos drones.
-- Analisar de dados importantes como altitude, localização GPS, nível de bateria e status do drone.
+- Análise de dados importantes como altitude, localização GPS, nível de bateria e status do drone.
 - Suporte para múltiplos drones com comunicação MAVLink.
 
 ---
