@@ -140,7 +140,7 @@ export default {
           return;
         }
         const script = document.createElement('script');
-        script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyACfUVHlE0cjTUKLBgVPAY0bLguBkxG1rg&libraries=places,directions';
+        script.src = 'https://maps.googleapis.com/maps/api/js?key=API_KEY&libraries=places,directions';
         script.async = true;
         script.defer = true;
         script.onload = resolve;
