@@ -19,7 +19,7 @@ def connect_to_sitl(drone_id, address, port):
     try:
         connection_str = f'udp:{address}:{port}'
         master = mavutil.mavlink_connection(connection_str)
-        print(f"Conectado ao SITL em {connection_str}. Esperando por heartbeat...")
+        print(f"Conectado ao SITL em {connection_str}. Aguardar pelo heartbeat...")
         master.wait_heartbeat(timeout=15)
         print("Heartbeat recebido.")
         drones[drone_id] = master
@@ -56,7 +56,7 @@ def land_all_drones():
     for drone_id, master in drones.items():
         if master:
             land_drone(drone_id)
-            print(f"Drone {drone_id} pousado devido à desconexão do servidor.")
+            print(f"Drone {drone_id} a pousar devido à desconexão do servidor.")
 
 def broadcast_drone_data():
     while True:
