@@ -1,4 +1,4 @@
-# dronefly1
+# Dronefly
 
 ## Project setup
 ```
